@@ -109,4 +109,11 @@ public class puntuaciones : MonoBehaviour {
     }
 
 
+
+
+    public void guardarPuntuaciones() {
+        PlayerPrefs.SetInt("DISTANCIARECORRIDA",scoreDistancia);
+        PlayerPrefs.SetInt("SPARKS",scoreSpark);
+    }
+
 }

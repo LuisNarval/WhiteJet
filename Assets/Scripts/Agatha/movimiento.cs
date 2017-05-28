@@ -8,41 +8,46 @@ public class movimiento : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-        moverse();
-        	
 	}
 
 
+    private void FixedUpdate()
+    {
+        detectarTeclas();
+    }
 
-    void moverse() {
+    // Update is called once per frame
+    void Update () {
         
+	}
 
-        if (Input.GetKey(KeyCode.W) && this.transform.position.y < 8.5f)
+    void detectarTeclas() {
+        if (Input.GetKey(KeyCode.W))
         {
-            this.transform.Translate(Vector2.up * velocidad * Time.deltaTime);
+            moverse(Vector2.up);
         }
 
-        if (Input.GetKey(KeyCode.A) && this.transform.position.x > 2.2f)
+        if (Input.GetKey(KeyCode.A))
         {
-            this.transform.Translate(Vector2.left * velocidad * Time.deltaTime);
+            moverse(Vector2.left);
         }
 
-        if (Input.GetKey(KeyCode.D) && this.transform.position.x < 15.5f)
+        if (Input.GetKey(KeyCode.D))
         {
-            this.transform.Translate(Vector2.right * velocidad * Time.deltaTime);
+            moverse(Vector2.right);
         }
 
-        if (Input.GetKey(KeyCode.S) && this.transform.position.y > 0.08f)
+        if (Input.GetKey(KeyCode.S))
         {
-            this.transform.Translate(Vector2.down * velocidad * Time.deltaTime);
+            moverse(Vector2.down);
         }
+    }
 
+
+
+    public void moverse(Vector3 direccion)
+    {
+        this.transform.Translate(direccion * velocidad * Time.deltaTime);
     }
 
 

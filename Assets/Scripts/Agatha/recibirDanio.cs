@@ -6,9 +6,15 @@ public class recibirDanio : MonoBehaviour {
 
     public int vida = 1;
 
-	// Use this for initialization
-	void Start () {
-		
+    public GameObject HUD;
+    public GameObject puntuaciones;
+    public Animator animadorUI;
+
+    puntuaciones codigoPuntuaciones;
+
+    // Use this for initialization
+    void Start () {
+        codigoPuntuaciones = puntuaciones.GetComponent<puntuaciones>();
 	}
 	
 	// Update is called once per frame
@@ -26,13 +32,25 @@ public class recibirDanio : MonoBehaviour {
 
             if (vida <= 0)
             {
-                Destroy(this.gameObject);
+                morir();
             }
 
         }
 
     }
 
+
+
+    public void morir() {
+
+
+        codigoPuntuaciones.guardarPuntuaciones();
+        animadorUI.SetTrigger("abrirEstadisticas");
+
+        HUD.SetActive(false);
+        Destroy(this.gameObject);
+  
+    }
 
 
 }
