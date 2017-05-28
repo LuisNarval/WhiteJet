@@ -9,6 +9,7 @@ public class Lemon_Laser : MonoBehaviour {
     public GameObject Lemon_Bala;
     public GameObject Posicion_Bala;
 
+    public bool disparando = false;
 
 	// Use this for initialization
 	void Start () {
@@ -18,15 +19,28 @@ public class Lemon_Laser : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
+            disparando=true;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            disparando = false;
+        }
+
+
+
+        if (disparando){
             disparar();
         }
 
     }
+    
 
 
-    void disparar() {
+
+   public void disparar() {
         animador.SetTrigger("disparar");
         animador.SetBool("disparando", true);
     }
@@ -40,6 +54,18 @@ public class Lemon_Laser : MonoBehaviour {
 
     public void instanciarBala() {
         Instantiate(Lemon_Bala,Posicion_Bala.transform.position,Posicion_Bala.transform.rotation);
+    }
+
+
+
+
+    public void touchDown() {
+        disparando = true;
+    }
+
+
+    public void touchUp() {
+        disparando = false;
     }
 
 
