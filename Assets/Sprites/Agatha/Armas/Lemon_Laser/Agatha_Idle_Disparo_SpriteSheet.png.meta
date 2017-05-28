@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 34efa4df818504e43aa075a03f85cb0b
+timeCreated: 1495928740
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Agatha_Idle_Disparo_SpriteSheet_0
+    21300002: Agatha_Idle_Disparo_SpriteSheet_1
+    21300004: Agatha_Idle_Disparo_SpriteSheet_2
+    21300006: Agatha_Idle_Disparo_SpriteSheet_3
+    21300008: Agatha_Idle_Disparo_SpriteSheet_5
+    21300010: Agatha_Idle_Disparo_SpriteSheet_8
+    21300012: Agatha_Idle_Disparo_SpriteSheet_10
+    21300014: Agatha_Idle_Disparo_SpriteSheet_11
+    21300016: Agatha_Idle_Disparo_SpriteSheet_12
+    21300018: Agatha_Idle_Disparo_SpriteSheet_13
+    21300020: Agatha_Idle_Disparo_SpriteSheet_14
+    21300022: Agatha_Idle_Disparo_SpriteSheet_15
+    21300024: Agatha_Idle_Disparo_SpriteSheet_16
+    21300026: Agatha_Idle_Disparo_SpriteSheet_17
+    21300028: Agatha_Idle_Disparo_SpriteSheet_18
+    21300030: Agatha_Idle_Disparo_SpriteSheet_19
+    21300032: Agatha_Idle_Disparo_SpriteSheet_20
+    21300034: Agatha_Idle_Disparo_SpriteSheet_21
+    21300036: Agatha_Idle_Disparo_SpriteSheet_22
+    21300038: Agatha_Idle_Disparo_SpriteSheet_23
+    21300040: Agatha_Idle_Disparo_SpriteSheet_24
+    21300042: Agatha_Idle_Disparo_SpriteSheet_25
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1408
+        width: 220
+        height: 73
+      alignment: 9
+      pivot: {x: 0.056647006, y: 0.4620629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1408
+        width: 220
+        height: 73
+      alignment: 9
+      pivot: {x: 0.05454906, y: 0.4620629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1408
+        width: 237
+        height: 75
+      alignment: 9
+      pivot: {x: 0.054531436, y: 0.4692285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1403
+        width: 275
+        height: 138
+      alignment: 9
+      pivot: {x: 0.06657175, y: 0.31269726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1090
+        width: 317
+        height: 144
+      alignment: 9
+      pivot: {x: 0.068123624, y: 0.33332232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1090
+        width: 247
+        height: 144
+      alignment: 9
+      pivot: {x: 0.07058912, y: 0.3385849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1092
+        width: 220
+        height: 125
+      alignment: 9
+      pivot: {x: 0.056003086, y: 0.3470537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 1090
+        width: 224
+        height: 112
+      alignment: 9
+      pivot: {x: 0.054512024, y: 0.39429146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1156
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 784
+        width: 228
+        height: 109
+      alignment: 9
+      pivot: {x: 0.06118346, y: 0.36277393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 788
+        width: 222
+        height: 105
+      alignment: 9
+      pivot: {x: 0.052466314, y: 0.34345704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 751
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 751
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 440
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 440
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 440
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 440
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 130
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 130
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 130
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Agatha_Idle_Disparo_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 130
+        width: 302
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
