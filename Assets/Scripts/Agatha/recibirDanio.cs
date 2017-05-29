@@ -9,6 +9,8 @@ public class recibirDanio : MonoBehaviour {
     public GameObject HUD;
     public GameObject puntuaciones;
     public Animator animadorUI;
+    public background_move codigoFondo;
+    public generador codigoGenerador;
 
     puntuaciones codigoPuntuaciones;
 
@@ -43,11 +45,15 @@ public class recibirDanio : MonoBehaviour {
 
     public void morir() {
 
+        codigoFondo.velocidad = 0.0f;
+        codigoGenerador.enabled = false;
 
         codigoPuntuaciones.guardarPuntuaciones();
         animadorUI.SetTrigger("abrirEstadisticas");
 
         HUD.SetActive(false);
+
+
         Destroy(this.gameObject);
   
     }
